@@ -1,0 +1,2219 @@
+[
+    {
+        "text": "Was steuert der Buchungsschlüssel?",
+        "choices": [
+            {
+                "text": "Den Feldstatus",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Kontoart",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Belegnummer",
+                "isCorrect": false
+            },
+            {
+                "text": "Das Buchungsdatum",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was steuert der Bewertungsbereich?",
+        "choices": [
+            {
+                "text": "Den Abschreibungsbeginn",
+                "isCorrect": true
+            },
+            {
+                "text": "Die geschätzte Lebensdauer",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Abschreibungskonten",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Anlagenklasse",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche der folgenden Stammdaten werden direkt einem Buchungskreis zugeordnet?",
+        "choices": [
+            {
+                "text": "Anlage",
+                "isCorrect": true
+            },
+            {
+                "text": "Kostenstelle",
+                "isCorrect": true
+            },
+            {
+                "text": "Leistungsart",
+                "isCorrect": false
+            },
+            {
+                "text": "Materialstamm",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Sie legen Stammdaten des Hauptbuchkontos in der Finanzbuchhaltung an. Welche der folgenden Einträge müssen beim Anlegen dieses Kontos immer vergeben werden?",
+        "choices": [
+            {
+                "text": "Bilanz- oder GuV-Konto",
+                "isCorrect": true
+            },
+            {
+                "text": "Kontengruppe",
+                "isCorrect": true
+            },
+            {
+                "text": "Kurztext",
+                "isCorrect": true
+            },
+            {
+                "text": "Beispielkontonummer",
+                "isCorrect": false
+            },
+            {
+                "text": "Gruppenkonto",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Sie wollen mit der Produktion beginnen und müssen Materialien für den Fertigungsauftrag entnehmen. Was sind die Ergebnisse?",
+        "choices": [
+            {
+                "text": "Buchhaltungsbeleg ist erstellt",
+                "isCorrect": true
+            },
+            {
+                "text": "Kostenrechnungsbeleg ist erstellt",
+                "isCorrect": true
+            },
+            {
+                "text": "Bestandskonto ist erhöht",
+                "isCorrect": false
+            },
+            {
+                "text": "Verbrauchskonto ist entlastet",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Aktion führt dazu, dass ein Buchhaltungsbeleg erstellt wird?",
+        "choices": [
+            {
+                "text": "Eine Lieferantenrechnung mit Bezug zu einer Bestellung buchen",
+                "isCorrect": true
+            },
+            {
+                "text": "Einen internen Auftrag auf eine Anlage abrechnen",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Abweichungen eines Fertigungsauftrages kalkulieren",
+                "isCorrect": false
+            },
+            {
+                "text": "Einen Mitarbeiter auf einen Kurs buchen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche der folgenden Lieferantenstammdaten sind auf Buchungskreisebene definiert?",
+        "choices": [
+            {
+                "text": "Buchhaltungsdaten",
+                "isCorrect": true
+            },
+            {
+                "text": "Korrespondenz",
+                "isCorrect": true
+            },
+            {
+                "text": "Bankverbindungen",
+                "isCorrect": false
+            },
+            {
+                "text": "Partnerrollen",
+                "isCorrect": false
+            },
+            {
+                "text": "Steuerdaten",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche der folgenden Bereiche gehört zu SAP Success Factors Employee Central?",
+        "choices": [
+            {
+                "text": "Entlohnung",
+                "isCorrect": true
+            },
+            {
+                "text": "Mitarbeiterdaten",
+                "isCorrect": true
+            },
+            {
+                "text": "Organisationsmanagement",
+                "isCorrect": true
+            },
+            {
+                "text": "Learning Management",
+                "isCorrect": false
+            },
+            {
+                "text": "Nachfolge- und Laufbahnplanung",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Funktionen kann ein Mitarbeiter über die Employee Self Services ausführen?",
+        "choices": [
+            {
+                "text": "Arbeitszeiten erfassen",
+                "isCorrect": true
+            },
+            {
+                "text": "Bankverbindungen aktualisieren",
+                "isCorrect": true
+            },
+            {
+                "text": "Zu einem Kurs anmelden",
+                "isCorrect": true
+            },
+            {
+                "text": "Mitarbeiter einstellen",
+                "isCorrect": false
+            },
+            {
+                "text": "Vergütungen planen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Wie können Sie sich alle Infotypen zu einem Mitarbeiter anzeigen lassen?",
+        "choices": [
+            {
+                "text": "Über die Personalakte",
+                "isCorrect": true
+            },
+            {
+                "text": "Über die Grunddaten",
+                "isCorrect": false
+            },
+            {
+                "text": "Über die organisatorische Zuordnung",
+                "isCorrect": false
+            },
+            {
+                "text": "Über eine Personalmaßnahme",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche der folgenden HCM Prozesse erzeugen einen Beleg in der Finanzbuchhaltung?",
+        "choices": [
+            {
+                "text": "Lohn- und Gehaltsabrechnung",
+                "isCorrect": true
+            },
+            {
+                "text": "Veranstaltungsmanagement",
+                "isCorrect": true
+            },
+            {
+                "text": "Organisationsmanagement",
+                "isCorrect": false
+            },
+            {
+                "text": "Personalentwicklung",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was bietet soziale Kollaboration, in der Sie sich mit Kunden, Partner und Kollegen verbinden können, Informationen, Anwendungen und Prozessen austauschen, um geschäftskritische Probleme zu lösen?",
+        "choices": [
+            {
+                "text": "SAP Jam",
+                "isCorrect": true
+            },
+            {
+                "text": "SAP Collab",
+                "isCorrect": false
+            },
+            {
+                "text": "SAP Facechat",
+                "isCorrect": false
+            },
+            {
+                "text": "SAP Jelly",
+                "isCorrect": false
+            },
+            {
+                "text": "SAP Snapwork",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches der Human Capital Management Organisationselemente wird einem Buchungskreis zugeordnet?",
+        "choices": [
+            {
+                "text": "Personalbereich",
+                "isCorrect": true
+            },
+            {
+                "text": "Abrechnungskreis",
+                "isCorrect": false
+            },
+            {
+                "text": "Mitarbeitergruppe",
+                "isCorrect": false
+            },
+            {
+                "text": "Organisationseinheit",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Felder werden benötigt, um eine Kostenstelle anzulegen?",
+        "choices": [
+            {
+                "text": "Hierarchiebereich",
+                "isCorrect": true
+            },
+            {
+                "text": "Verantwortlicher",
+                "isCorrect": true
+            },
+            {
+                "text": "Abteilung",
+                "isCorrect": false
+            },
+            {
+                "text": "Adresse",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Worin besteht die Integration zwischen einem Innenauftrag und einer Anlage?",
+        "choices": [
+            {
+                "text": "Abrechnungsvorschrift",
+                "isCorrect": true
+            },
+            {
+                "text": "Anlagenklasse",
+                "isCorrect": false
+            },
+            {
+                "text": "Auftragsart",
+                "isCorrect": false
+            },
+            {
+                "text": "Bewertungsbereich",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Objekte können abgerechnet werden?",
+        "choices": [
+            {
+                "text": "Instandhaltungsauftrag",
+                "isCorrect": true
+            },
+            {
+                "text": "PSP-Element",
+                "isCorrect": true
+            },
+            {
+                "text": "Ergebnisobjekt",
+                "isCorrect": false
+            },
+            {
+                "text": "Kostenstelle",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was sind Organisationsstrukturen des Management Accounting?",
+        "choices": [
+            {
+                "text": "Ergebnisbereich",
+                "isCorrect": true
+            },
+            {
+                "text": "Kostenrechnungskreis",
+                "isCorrect": true
+            },
+            {
+                "text": "Buchungskreis",
+                "isCorrect": false
+            },
+            {
+                "text": "Segment",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Voraussetzungen müssen erfüllt sein, um mehrere Buchungskreise einem Kostenrechnungskreis zuzuordnen?",
+        "choices": [
+            {
+                "text": "Sie benötigen dasselbe Geschäftsjahr",
+                "isCorrect": true
+            },
+            {
+                "text": "Sie benötigen denselben operativen Kontenplan",
+                "isCorrect": true
+            },
+            {
+                "text": "Sie benötigen denselben landesspezifischen Kontenplan",
+                "isCorrect": false
+            },
+            {
+                "text": "Sie benötigen dieselbe Buchungskreiswährung",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches der folgenden Objekte kann nur ein echtes Kontierungsobjekt sein?",
+        "choices": [
+            {
+                "text": "Kostenstelle",
+                "isCorrect": true
+            },
+            {
+                "text": "Innenauftrag",
+                "isCorrect": false
+            },
+            {
+                "text": "Profit Center",
+                "isCorrect": false
+            },
+            {
+                "text": "Projekt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was wird für einen Report, der die Merkmale Kunde, Material und Region enthält, benötigt?",
+        "choices": [
+            {
+                "text": "Ergebnisobjekte",
+                "isCorrect": true
+            },
+            {
+                "text": "Perimärkostenarten",
+                "isCorrect": false
+            },
+            {
+                "text": "Profit Center",
+                "isCorrect": false
+            },
+            {
+                "text": "Sachkonten",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Für welchen Verwendungszweck nutzen Sie statistische Kennzahlen?",
+        "choices": [
+            {
+                "text": "Um eine Bezugsbasis für eine Umlage zu haben",
+                "isCorrect": true
+            },
+            {
+                "text": "Um Ausgaben auf Kostenarten zu verteilen",
+                "isCorrect": false
+            },
+            {
+                "text": "Um die Ausgaben für einen Verantwortungsbereich zu sammeln",
+                "isCorrect": false
+            },
+            {
+                "text": "Um interne Kostenflüsse zu identifizieren",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Stammdaten definieren das Mengengerüst für eine Produktkostenkalkulation?",
+        "choices": [
+            {
+                "text": "Arbeitsplan",
+                "isCorrect": true
+            },
+            {
+                "text": "Stückliste",
+                "isCorrect": true
+            },
+            {
+                "text": "Kostenstelle",
+                "isCorrect": false
+            },
+            {
+                "text": "Leistungsart",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches sind die Integrationsaspekte zwischen einem Anlagenstammsatz und einer Kostenstelle?",
+        "choices": [
+            {
+                "text": "Abschreibungslauf",
+                "isCorrect": true
+            },
+            {
+                "text": "Erzeugen eines Anlagenstammsatzes",
+                "isCorrect": true
+            },
+            {
+                "text": "Anlagenbuchwert",
+                "isCorrect": false
+            },
+            {
+                "text": "Anlagenkauf",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Ein interner Verrechnungspreis kann der Kombination aus Leistungsart und welchem Objekt angelegt werden?",
+        "choices": [
+            {
+                "text": "Kostenstelle",
+                "isCorrect": true
+            },
+            {
+                "text": "Arbeitsplatz",
+                "isCorrect": false
+            },
+            {
+                "text": "Finanzstelle",
+                "isCorrect": false
+            },
+            {
+                "text": "Profitcenter",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Stammdaten werden benötigt, um in der Leistungsart eine interne Leistungsverrechnung durchführen zu können?",
+        "choices": [
+            {
+                "text": "Sekundärkostenart",
+                "isCorrect": true
+            },
+            {
+                "text": "Bilanzkonto",
+                "isCorrect": false
+            },
+            {
+                "text": "Neutraler Aufwand",
+                "isCorrect": false
+            },
+            {
+                "text": "Primäre Kostenart",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches sind die Konsequenzen einer Warenausgangsbuchung einer Lieferung?",
+        "choices": [
+            {
+                "text": "Bestandsmengen werden aktualisiert",
+                "isCorrect": true
+            },
+            {
+                "text": "Der Fakturavorrat wird aktualisiert",
+                "isCorrect": true
+            },
+            {
+                "text": "Ein Journaleintrag wird erzeugt",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Faktura wird erzeugt",
+                "isCorrect": false
+            },
+            {
+                "text": "Ein Transportauftrag wird erzeugt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Organisationseinheiten gehören zu einem Vertriebsbereich?",
+        "choices": [
+            {
+                "text": "Sparte",
+                "isCorrect": true
+            },
+            {
+                "text": "Vertriebsweg",
+                "isCorrect": true
+            },
+            {
+                "text": "Buchungskreis",
+                "isCorrect": false
+            },
+            {
+                "text": "Werk",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "An welchen Stellen der Kundenauftragsabwicklung erfolgen Buchungen in der Hauptbuchhaltung?",
+        "choices": [
+            {
+                "text": "Beim Anlegen der Rechnung",
+                "isCorrect": true
+            },
+            {
+                "text": "Beim Buchen eines Wareneingangs",
+                "isCorrect": true
+            },
+            {
+                "text": "Bei der Bestätigung eines Transportauftrages",
+                "isCorrect": false
+            },
+            {
+                "text": "Beim Sichern des Kundenauftrags",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was kann einem Profitcenter zugeordnet werden?",
+        "choices": [
+            {
+                "text": "Anlage",
+                "isCorrect": true
+            },
+            {
+                "text": "Buchungskreis",
+                "isCorrect": true
+            },
+            {
+                "text": "Material",
+                "isCorrect": true
+            },
+            {
+                "text": "Ergebnisbereich",
+                "isCorrect": false
+            },
+            {
+                "text": "Organisationselement",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was kann Bestandteil von Konditionen sein?",
+        "choices": [
+            {
+                "text": "Rabatte",
+                "isCorrect": true
+            },
+            {
+                "text": "Zuschläge",
+                "isCorrect": true
+            },
+            {
+                "text": "Auftragswerte",
+                "isCorrect": false
+            },
+            {
+                "text": "Rechnungsbeträge",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches ist die richtige Reihenfolge in der Kundenauftragsabwicklung?",
+        "choices": [
+            {
+                "text": "Kundenauftrag anlegen → Verfügbarkeitskontrolle → Lieferung anlegen → Warenausgang buchen",
+                "isCorrect": true
+            },
+            {
+                "text": "Kundenauftrag anlegen → Verfügbarkeitskontrolle → Transport planen → Warenausgang buchen",
+                "isCorrect": false
+            },
+            {
+                "text": "Verfügbarkeitskontrolle → Kundenauftrag anlegen → Warenausgang buchen → Faktura erzeugen",
+                "isCorrect": false
+            },
+            {
+                "text": "Verfügbarkeitskontrolle → Kundenauftrag anlegen → Faktura erzeugen → Warenausgang buchen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Sie bearbeiten Stammdaten für einen Ihrer Kunden. Welche der folgenden Angaben kann in den Vertriebsbereichsdaten gepflegt werden?",
+        "choices": [
+            {
+                "text": "Versandbedingungen",
+                "isCorrect": true
+            },
+            {
+                "text": "Abstimmkonto",
+                "isCorrect": false
+            },
+            {
+                "text": "Kundenadresse",
+                "isCorrect": false
+            },
+            {
+                "text": "Kundenname",
+                "isCorrect": false
+            },
+            {
+                "text": "Kundennummer",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche der folgenden Elemente sind Bestandteil des Kundenauftragskopfes?",
+        "choices": [
+            {
+                "text": "Auftraggeber",
+                "isCorrect": true
+            },
+            {
+                "text": "Warenempfänger",
+                "isCorrect": true
+            },
+            {
+                "text": "Einteilung",
+                "isCorrect": false
+            },
+            {
+                "text": "Material",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches Tool gibt eine Übersicht über den Vertriebsprozess?",
+        "choices": [
+            {
+                "text": "Belegfluss",
+                "isCorrect": true
+            },
+            {
+                "text": "Auslieferungsliste",
+                "isCorrect": false
+            },
+            {
+                "text": "Dokumentübersicht",
+                "isCorrect": false
+            },
+            {
+                "text": "Kommissionierliste",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Wofür benötigt man eine freigegebene Produktkostenkalkulation?",
+        "choices": [
+            {
+                "text": "Um den Materialpreis im Vertrieb zu bestimmen",
+                "isCorrect": true
+            },
+            {
+                "text": "Um den Standardpreis im Materialstamm zu aktualisieren",
+                "isCorrect": true
+            },
+            {
+                "text": "Um die Plankosten eines Fertigungsauftrages zu ermitteln",
+                "isCorrect": true
+            },
+            {
+                "text": "Um den Preis einer Leistungsart zu kalkulieren",
+                "isCorrect": false
+            },
+            {
+                "text": "Um die Basiskosten für die Gemeinkostenzuschläge zu bestimmen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Prozesse kann das SAP-System automatisch ausführen, wenn Sie eine Endrückmeldung auf einen Fertigungsauftrag erfassen?",
+        "choices": [
+            {
+                "text": "Istkosten",
+                "isCorrect": true
+            },
+            {
+                "text": "Warenausgang",
+                "isCorrect": true
+            },
+            {
+                "text": "Wareneingang",
+                "isCorrect": true
+            },
+            {
+                "text": "Abweichungsermittlung",
+                "isCorrect": false
+            },
+            {
+                "text": "Auftragsabrechnung",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was beeinflusst der Arbeitsplatz?",
+        "choices": [
+            {
+                "text": "Die Kostenkalkulation der Ist-Arbeit",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Vorgangsterminierung",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Bewertung der Stücklistenpositionen",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Freigabe von Fertigungsaufträgen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was kann ein Bedarfsplanungslauf erzeugen?",
+        "choices": [
+            {
+                "text": "Sekundärbedarfe",
+                "isCorrect": true
+            },
+            {
+                "text": "Bestellungen",
+                "isCorrect": false
+            },
+            {
+                "text": "Planprimärbedarfe",
+                "isCorrect": false
+            },
+            {
+                "text": "Reservierungen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Ein Warenausgang für einen Fertigungsauftrag wurde gebucht. Welches sind die Auswirkungen?",
+        "choices": [
+            {
+                "text": "Die Istkosten des Auftrags werden aktualisiert",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Materialreservierung wird reduziert",
+                "isCorrect": true
+            },
+            {
+                "text": "Ein Kostenrechnungsbeleg wird erzeugt",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Lageraufgabe wird erzeugt",
+                "isCorrect": false
+            },
+            {
+                "text": "Kosten für Interne Leistungen werden gebucht",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "In der Kundenauftragseinzelfertigung wird ein Material für die Produktion benötigt. Für welchen Auftrag buchen sie den Warenausgang?",
+        "choices": [
+            {
+                "text": "Fertigungsauftrag",
+                "isCorrect": true
+            },
+            {
+                "text": "Kundenauftrag",
+                "isCorrect": false
+            },
+            {
+                "text": "Planauftrag",
+                "isCorrect": false
+            },
+            {
+                "text": "Umlagerungsauftrag",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was ermöglicht das Material Ledger im S/4HANA?",
+        "choices": [
+            {
+                "text": "Auswertungen für die parallele Rechnungslegung",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Materialbewertung in mehreren Währungen",
+                "isCorrect": true
+            },
+            {
+                "text": "Auswertung der Materialbedarfe in der Herstellung",
+                "isCorrect": false
+            },
+            {
+                "text": "Auswertungen aller Geschäftstransaktionen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welcher Parameter steuert den Planungsumfang der Bedarfsplanung?",
+        "choices": [
+            {
+                "text": "Verarbeitungsschlüssel",
+                "isCorrect": true
+            },
+            {
+                "text": "Beschaffungsart",
+                "isCorrect": false
+            },
+            {
+                "text": "Losgröße",
+                "isCorrect": false
+            },
+            {
+                "text": "Planungsmodus",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Stammdaten werden in der erweiterten Planung benutzt?",
+        "choices": [
+            {
+                "text": "Lokation",
+                "isCorrect": true
+            },
+            {
+                "text": "Produkt",
+                "isCorrect": true
+            },
+            {
+                "text": "Ressource",
+                "isCorrect": true
+            },
+            {
+                "text": "Arbeitsplatz",
+                "isCorrect": false
+            },
+            {
+                "text": "Stücklisten",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "In was können Planaufträge umgewandelt werden?",
+        "choices": [
+            {
+                "text": "Bestellanforderung",
+                "isCorrect": true
+            },
+            {
+                "text": "Fertigungsauftrag",
+                "isCorrect": true
+            },
+            {
+                "text": "Bestellung",
+                "isCorrect": false
+            },
+            {
+                "text": "Planprimärauftrag",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche der folgenden Aussagen zur Stückliste trifft zu?",
+        "choices": [
+            {
+                "text": "Eine Stückliste kann andere Stücklisten enthalten",
+                "isCorrect": true
+            },
+            {
+                "text": "Stücklisten werden für die Disposition, Produktion und Beschaffung verwendet",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Basismenge im Stücklistenkopf gibt die zur Herstellung der Fertigware verwendeten Komponentenmengen an",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine Stückliste besteht aus einem Stücklistenkopf, Stücklistenpositionen und Zeitplanpositionen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welcher Beleg wird für einen externen Netzplanvorgang erstellt?",
+        "choices": [
+            {
+                "text": "Bestellanforderung",
+                "isCorrect": true
+            },
+            {
+                "text": "Kundenauftrag",
+                "isCorrect": false
+            },
+            {
+                "text": "Planauftrag",
+                "isCorrect": false
+            },
+            {
+                "text": "Reservierung",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Wodurch entstehen Istkosten auf einem Projekt?",
+        "choices": [
+            {
+                "text": "Erfassen einer Lieferantenrechnung",
+                "isCorrect": true
+            },
+            {
+                "text": "Anlegen einer Bestellung",
+                "isCorrect": false
+            },
+            {
+                "text": "Erstellen einer Kostenprognose",
+                "isCorrect": false
+            },
+            {
+                "text": "Kalkulation der Projektzinsen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was repräsentiert ein hierarchisches Modell einer Projektes?",
+        "choices": [
+            {
+                "text": "PSP-Elemente",
+                "isCorrect": true
+            },
+            {
+                "text": "Arbeitsplan",
+                "isCorrect": false
+            },
+            {
+                "text": "Netzplan",
+                "isCorrect": false
+            },
+            {
+                "text": "Projektdefinition",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Elemente innerhalb eines Projektes können über Anordnungsbeziehungen miteinander verbunden werden?",
+        "choices": [
+            {
+                "text": "Vorgänge",
+                "isCorrect": true
+            },
+            {
+                "text": "Netzpläne",
+                "isCorrect": false
+            },
+            {
+                "text": "Projekte",
+                "isCorrect": false
+            },
+            {
+                "text": "PSP-Elemente",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "In welche Applikationen können die Daten des Arbeitszeitblattes (CATS) übertragen werden?",
+        "choices": [
+            {
+                "text": "CO Controlling",
+                "isCorrect": true
+            },
+            {
+                "text": "HCM Personalwesen",
+                "isCorrect": true
+            },
+            {
+                "text": "PS Projektsystem",
+                "isCorrect": true
+            },
+            {
+                "text": "FI Finanzbuchhaltung",
+                "isCorrect": false
+            },
+            {
+                "text": "PP Produktionsplanung",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Funktion vergleicht das Projektbudget mit den aufgelaufenen Istkosten eines PSP-Elements?",
+        "choices": [
+            {
+                "text": "Die Verfügbarkeitskontrolle",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Projektabrechnung",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Projektergebnisanalyse",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Projektkostenprognose",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Für welche Art von Netzplanvorgang können Sie Kapazitäten planen?",
+        "choices": [
+            {
+                "text": "Eigenvorgang",
+                "isCorrect": true
+            },
+            {
+                "text": "Fremdvorgang",
+                "isCorrect": false
+            },
+            {
+                "text": "Kostenvorgang",
+                "isCorrect": false
+            },
+            {
+                "text": "Servicevorgang",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Wie können Sie Kosten der internen Arbeit auf einen Netzplanvorgang buchen?",
+        "choices": [
+            {
+                "text": "Interne Leistungsverrechnung",
+                "isCorrect": true
+            },
+            {
+                "text": "Rückmeldung",
+                "isCorrect": true
+            },
+            {
+                "text": "Kostenverteilung",
+                "isCorrect": false
+            },
+            {
+                "text": "Leistungserfassungsblatt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches sind operative Kennzeichen in PSP-Elementen?",
+        "choices": [
+            {
+                "text": "Fakturierungselement",
+                "isCorrect": true
+            },
+            {
+                "text": "Kontierungselement",
+                "isCorrect": true
+            },
+            {
+                "text": "Planungselement",
+                "isCorrect": true
+            },
+            {
+                "text": "Budgetierungselement",
+                "isCorrect": false
+            },
+            {
+                "text": "Statistisches Element",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welcher der folgenden Begriffe definiert die Schritte und die Arbeit eines Projektes?",
+        "choices": [
+            {
+                "text": "Vorgänge",
+                "isCorrect": true
+            },
+            {
+                "text": "Fakturierungselemente",
+                "isCorrect": false
+            },
+            {
+                "text": "Operative Kennzeichen",
+                "isCorrect": false
+            },
+            {
+                "text": "PSP-Elemente",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welcher Beleg erzeugt ein Obligo auf einen Innenauftrag?",
+        "choices": [
+            {
+                "text": "Bestellung",
+                "isCorrect": true
+            },
+            {
+                "text": "Buchhaltungsbeleg",
+                "isCorrect": false
+            },
+            {
+                "text": "Kundenauftrag",
+                "isCorrect": false
+            },
+            {
+                "text": "Materialbeleg",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches ist eine Funktion der vereinfachten Beschaffung?",
+        "choices": [
+            {
+                "text": "Anforderung per Self Service",
+                "isCorrect": true
+            },
+            {
+                "text": "Bezugsquellenfindung",
+                "isCorrect": false
+            },
+            {
+                "text": "Lieferantenbewertung",
+                "isCorrect": false
+            },
+            {
+                "text": "Rechnungseingangsverarbeitung",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Objekte können einer Einkaufsorganisation zugeordnet werden?",
+        "choices": [
+            {
+                "text": "Lieferant",
+                "isCorrect": true
+            },
+            {
+                "text": "Werk",
+                "isCorrect": true
+            },
+            {
+                "text": "Kostenrechnungskreis",
+                "isCorrect": false
+            },
+            {
+                "text": "Material",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Belege werden erzeugt, wenn Sie einen bewerteten Wareneingang für Verbrauchsmaterial erfassen?",
+        "choices": [
+            {
+                "text": "Buchhaltungsbeleg",
+                "isCorrect": true
+            },
+            {
+                "text": "Kostenrechnungsbeleg",
+                "isCorrect": true
+            },
+            {
+                "text": "Eingangsrechnung",
+                "isCorrect": false
+            },
+            {
+                "text": "Kundenauftrag",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche der folgenden Reihenfolgen in einem externen Beschaffungsprozess ist korrekt?",
+        "choices": [
+            {
+                "text": "Bedarfsermittlung → Lieferantenauswahl → Bestellung → Wareneingang → Rechnungseingang",
+                "isCorrect": true
+            },
+            {
+                "text": "Bedarfsermittlung → Bestellung → Zahlung → Wareneingang → Rechnungseingang",
+                "isCorrect": false
+            },
+            {
+                "text": "Bezugsquellenermittlung → Lieferantenauswahl → Bedarfsermittlung → Bestellung → Wareneingang",
+                "isCorrect": false
+            },
+            {
+                "text": "Lieferantenauswahl → Bezugsquellenermittlung → Bestellüberwachung → Wareneingang → Zahlung",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Sie kaufen Rohstoffe über eine Bestellung ein, die auf einen Innenauftrag kontiert ist. Welcher Schritt erzeugt Journaleinträge?",
+        "choices": [
+            {
+                "text": "Erfassen eines bewerteten Wareneingangs",
+                "isCorrect": true
+            },
+            {
+                "text": "Anlegen einer Bestellanforderung",
+                "isCorrect": false
+            },
+            {
+                "text": "Anweisung einer Zahlung",
+                "isCorrect": false
+            },
+            {
+                "text": "Freigabe einer Bestellung",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was müssen Sie tun, wenn Sie Material für eine Kostenstelle einkaufen möchten?",
+        "choices": [
+            {
+                "text": "Einen passenden Kontierungstyp zuordnen",
+                "isCorrect": true
+            },
+            {
+                "text": "Das Sachkonto in eine Kostenart ändern",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Materialart geeignet ändern",
+                "isCorrect": false
+            },
+            {
+                "text": "Einen passenden Positionstyp zuordnen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was passiert, wenn Sie eine logistische Rechnungsprüfung durchführen?",
+        "choices": [
+            {
+                "text": "Die Bestellentwicklung wird aktualisiert",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Bestellanforderung wird aktualisiert",
+                "isCorrect": false
+            },
+            {
+                "text": "Die offenen Posten des Kreditorenkontos werden ausgeglichen",
+                "isCorrect": false
+            },
+            {
+                "text": "Ein Materialbeleg wird erzeugt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Eine Bestellung enthält Kopf und Positionen. Welche der folgenden sind Daten auf Positionsebene?",
+        "choices": [
+            {
+                "text": "Bestellmenge",
+                "isCorrect": true
+            },
+            {
+                "text": "Materialnummer",
+                "isCorrect": true
+            },
+            {
+                "text": "Lieferdatum",
+                "isCorrect": true
+            },
+            {
+                "text": "Belegwährung",
+                "isCorrect": false
+            },
+            {
+                "text": "Bestelldatum",
+                "isCorrect": false
+            },
+            {
+                "text": "Bestellnummer",
+                "isCorrect": false
+            },
+            {
+                "text": "Zahlungsbedingung",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was zeigt die Bestandsübersicht?",
+        "choices": [
+            {
+                "text": "Zeigt Bestandsinformationen für ein Material nach Organisationsebenen an",
+                "isCorrect": true
+            },
+            {
+                "text": "Bestandsmengen für mehrere Materialien",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Lagermenge für mehrere Materialien",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Menge an Bestand in einem Lagerplatz",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Logistische Rechnungsprüfung ist der Prozess, bei dem die Rechnung eines Lieferanten mit dem Wareneingangsbeleg und der Bestellung verglichen wird. Welche Auswirkungen hat die logistische Rechnungsprüfung?",
+        "choices": [
+            {
+                "text": "Die Bestellentwicklung wird aktualisiert",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Rückstellungen im WE / RE-Verrechnungskonto werden aufgelöst",
+                "isCorrect": true
+            },
+            {
+                "text": "Ein Buchhaltungsbeleg wird erstellt",
+                "isCorrect": true
+            },
+            {
+                "text": "Der Lieferantenstammsatz wird aktualisiert",
+                "isCorrect": false
+            },
+            {
+                "text": "Die verfügbare Menge im Materialstamm wird aktualisiert",
+                "isCorrect": false
+            },
+            {
+                "text": "Ein Materialbeleg wird erstellt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was wird benötigt, um einen Geschäftspartner anzulegen?",
+        "choices": [
+            {
+                "text": "Geschäftspartnerrolle",
+                "isCorrect": true
+            },
+            {
+                "text": "Geschäftspartnerfunktion",
+                "isCorrect": false
+            },
+            {
+                "text": "Geschäftspartnerart",
+                "isCorrect": false
+            },
+            {
+                "text": "Kontengruppe",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Technologien ermöglichen die Entwicklung von SAP S/4HANA?",
+        "choices": [
+            {
+                "text": "Große Hauptspeicherkapazitäten",
+                "isCorrect": true
+            },
+            {
+                "text": "Mehrprozessorverarbeitung",
+                "isCorrect": true
+            },
+            {
+                "text": "Mobile Endgeräte",
+                "isCorrect": false
+            },
+            {
+                "text": "Schnelle WLAN Verbindungen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche SAP Lösung wird genutzt, um Marketingfunktionen in der SAP S/4HANA Suite durchzuführen?",
+        "choices": [
+            {
+                "text": "SAP Hybris",
+                "isCorrect": true
+            },
+            {
+                "text": "SAP Ariba",
+                "isCorrect": false
+            },
+            {
+                "text": "SAP Fieldglass",
+                "isCorrect": false
+            },
+            {
+                "text": "SAP Success Factor",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was ist das Ziel der Vereinfachungsliste (Simplification List) im SAP S/4HANA?",
+        "choices": [
+            {
+                "text": "Um eine Analyse der kundeneigenen Entwicklungen durchführen zu können, die nach S/4HANA migriert werden können",
+                "isCorrect": true
+            },
+            {
+                "text": "Um eine Liste neuer SAP Fiori Apps zur Verfügung zu stellen",
+                "isCorrect": false
+            },
+            {
+                "text": "Um eine Echtzeit Migration im S/4HANA durchzuführen",
+                "isCorrect": false
+            },
+            {
+                "text": "Um Entwicklungen im S/4HANA anzukündigen, die noch nicht freigegeben sind",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Arten von SAP Fiori Apps nutzen die SAP HANA Datenebene direkt?",
+        "choices": [
+            {
+                "text": "Analytische Apps",
+                "isCorrect": true
+            },
+            {
+                "text": "Fact Sheets",
+                "isCorrect": true
+            },
+            {
+                "text": "Transaktionale Apps",
+                "isCorrect": false
+            },
+            {
+                "text": "Web Dynpros",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches sind Eigenschaften im SAP Fiori User Interface Design?",
+        "choices": [
+            {
+                "text": "Anpassungsfähigkeit an die Endgeräte",
+                "isCorrect": true
+            },
+            {
+                "text": "Rollenbasierte Applikationen",
+                "isCorrect": true
+            },
+            {
+                "text": "Funktionsbasierte Anwendungen",
+                "isCorrect": false
+            },
+            {
+                "text": "Mehrfache Zugangspunkte",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches sind Eigenschaften des SAP S/4HANA?",
+        "choices": [
+            {
+                "text": "Bringt OLAP und OLTP zusammen",
+                "isCorrect": true
+            },
+            {
+                "text": "Hat einen reduzierten Datenabdruck",
+                "isCorrect": true
+            },
+            {
+                "text": "Hat vereinfachte Anwendungen",
+                "isCorrect": true
+            },
+            {
+                "text": "Hat kleinere Änderungen im Datenmodell",
+                "isCorrect": false
+            },
+            {
+                "text": "Kann auf jeder beliebigen Datenbank laufen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches sind Vorteile in der Nutzung der Geschäftspartner?",
+        "choices": [
+            {
+                "text": "Es wird eine vereinheitlichte Architektur zur Verfügung gestellt",
+                "isCorrect": true
+            },
+            {
+                "text": "Für jeden Geschäftspartner können mehrere Adressen gepflegt werden",
+                "isCorrect": true
+            },
+            {
+                "text": "Die allgemeinen Daten sind in allen Rollen gleich",
+                "isCorrect": false
+            },
+            {
+                "text": "Lieferanten und Kunden werden getrennt verwaltet",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was wird für die Kommissionierung im SAP Extended Warehouse benötigt?",
+        "choices": [
+            {
+                "text": "Auslieferung",
+                "isCorrect": true
+            },
+            {
+                "text": "Kundenauftrag",
+                "isCorrect": false
+            },
+            {
+                "text": "Transportauftrag",
+                "isCorrect": false
+            },
+            {
+                "text": "Materialbeleg",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches sind Funktionen im SAP Extended Warehouse?",
+        "choices": [
+            {
+                "text": "Erwarteter Wareneingang",
+                "isCorrect": true
+            },
+            {
+                "text": "Inventur auf Lagerortebene",
+                "isCorrect": true
+            },
+            {
+                "text": "Einlagerung mit Transportaufträgen",
+                "isCorrect": false
+            },
+            {
+                "text": "Inventur auf Lagerplatzebene",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Sie möchten in Ihrem Lager sicherstellen, dass das Material auf dem optimalen Lagerplatz eingelagert wird. Welche Funktion im SAP Extended Warehouse implementieren Sie?",
+        "choices": [
+            {
+                "text": "Lagerungsdisposition und Lagerreorganisation",
+                "isCorrect": true
+            },
+            {
+                "text": "Cross Docking",
+                "isCorrect": false
+            },
+            {
+                "text": "Wellenmanagement",
+                "isCorrect": false
+            },
+            {
+                "text": "Yard Management",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was ist der Vorteil in der Nutzung von Umlagerungsbestellungen im Vergleich zu Umlagerungen?",
+        "choices": [
+            {
+                "text": "Die Bedarfsplanung berücksichtigt die Materialien",
+                "isCorrect": true
+            },
+            {
+                "text": "Der Besitzwechsel ist verschoben auf den Wareneingang",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Qualitätskontrolle wird vom Lieferwerk durchgeführt",
+                "isCorrect": false
+            },
+            {
+                "text": "Warenbewegungen werden in einem Schritt ausgeführt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "In SAP WM wird eine Lagernummer zugewiesen",
+        "choices": [
+            {
+                "text": "Einer Werk-Lagerort-Kombination",
+                "isCorrect": true
+            },
+            {
+                "text": "Einem Lagerort",
+                "isCorrect": false
+            },
+            {
+                "text": "Einem Werk",
+                "isCorrect": false
+            },
+            {
+                "text": "Einer Werk-Buchungskreis-Kombination",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Umbuchungen und Umlagerungen sind wichtige Funktionen in der Bestandsführung. Ihr Projektteam bittet Sie, den Unterschied zwischen diesen zu erklären. Welches sind reine Umbuchungen?",
+        "choices": [
+            {
+                "text": "Konsignation an eigenen Lagerbestand",
+                "isCorrect": true
+            },
+            {
+                "text": "Material zu Material",
+                "isCorrect": true
+            },
+            {
+                "text": "Qualitätsprüfbestand an frei verwendbaren Lagerbestand",
+                "isCorrect": true
+            },
+            {
+                "text": "Lagerort an Lagerort",
+                "isCorrect": false
+            },
+            {
+                "text": "Werk an Werk",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Aussagen beschreiben eine Inventur zutreffend?",
+        "choices": [
+            {
+                "text": "Ein Inventurbeleg enthält Kopf und Positionen",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Inventur wird auf Lagerortebene durchgeführt",
+                "isCorrect": true
+            },
+            {
+                "text": "Beim Erfassen der Zählung entsteht ein Buchhaltungsbeleg über die Differenz",
+                "isCorrect": false
+            },
+            {
+                "text": "Das CC-Kennzeichen (Cycle Counting) ist eine Ergänzung zur ABC-Analyse",
+                "isCorrect": false
+            },
+            {
+                "text": "In der Inventur werden nur die frei verwendbaren Bestände gezählt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches Element gehört zu einem Instandhaltungsauftrag?",
+        "choices": [
+            {
+                "text": "Plankosten",
+                "isCorrect": true
+            },
+            {
+                "text": "Aktion",
+                "isCorrect": false
+            },
+            {
+                "text": "Bautyp",
+                "isCorrect": false
+            },
+            {
+                "text": "Stücklsite",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Sie haben einen Anlagenstammsatz angelegt. Welche anderen Stammdaten können synchron automatisch erzeugt werden?",
+        "choices": [
+            {
+                "text": "Equipment",
+                "isCorrect": true
+            },
+            {
+                "text": "Kostenstelle",
+                "isCorrect": false
+            },
+            {
+                "text": "Primärkostenart",
+                "isCorrect": false
+            },
+            {
+                "text": "Technischer Platz",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches Element des Instandhaltungsauftrages beinhaltet folgende Elemente: Arbeitsplatz, Steuerschlüssel und Leistungsart?",
+        "choices": [
+            {
+                "text": "Vorgang",
+                "isCorrect": true
+            },
+            {
+                "text": "Auftragskopf",
+                "isCorrect": false
+            },
+            {
+                "text": "Baugruppe",
+                "isCorrect": false
+            },
+            {
+                "text": "Istkosten",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches können Elemente einer Instandhaltungsmeldung sein?",
+        "choices": [
+            {
+                "text": "Maßnahmen",
+                "isCorrect": true
+            },
+            {
+                "text": "Schadensursache",
+                "isCorrect": true
+            },
+            {
+                "text": "Standortdaten",
+                "isCorrect": true
+            },
+            {
+                "text": "Komponenten",
+                "isCorrect": false
+            },
+            {
+                "text": "Vorgänge",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches sind die Schritte in der Abwicklung von Instandhaltungsmaßnahmen?",
+        "choices": [
+            {
+                "text": "Meldung anlegen → Auftrag erzeugen → Auftrag freigeben → Auftrag ausführen → Auftrag abschließen",
+                "isCorrect": true
+            },
+            {
+                "text": "Arbeitsplan anlegen → Wartungsplan anlegen → Wartungsplan terminieren → Auftrag abschließen → Auftrag fakturieren",
+                "isCorrect": false
+            },
+            {
+                "text": "Arbeitsplan anlegen → Wartungsplan anlegen → Wartungsplan terminieren → Auftrag freigeben → Auftrag abschließen",
+                "isCorrect": false
+            },
+            {
+                "text": "Meldung anlegen → Auftrag freigeben → Auftrag ausführen → Auftrag abschließen → Auftrag fakturieren",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Für welchen Verwendungszweck legen Sie Equipmentstammdaten an?",
+        "choices": [
+            {
+                "text": "Um die Einsatzzeit auf einem Technischen Platz zu verfolgen",
+                "isCorrect": true
+            },
+            {
+                "text": "Um die vorbeugenden Instandhaltungsmaßnahmen eines Objektes nachzuverfolgen",
+                "isCorrect": true
+            },
+            {
+                "text": "Um die Auswirkungen des Einsatzes auf die Schadenswahrscheinlichkeit auszuwerten",
+                "isCorrect": false
+            },
+            {
+                "text": "Um die technischen Anlagenstrukturen Ihres Unternehmens abzubilden",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Sie benötigen für Ihre Instandhaltungsmaßnahme ein Ersatzteil. Zu welchen Zeitpunkten können Reservierungen erzeugt werden?",
+        "choices": [
+            {
+                "text": "Bei der Auftragsfreigabe",
+                "isCorrect": true
+            },
+            {
+                "text": "Beim Anlegen eines Auftrages",
+                "isCorrect": true
+            },
+            {
+                "text": "Bei der Auftragsabrechnung",
+                "isCorrect": false
+            },
+            {
+                "text": "Beim Technischen Abschluss",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Was können Sie in der Gesamtrückmeldung erfassen?",
+        "choices": [
+            {
+                "text": "Messwerte",
+                "isCorrect": true
+            },
+            {
+                "text": "Meldungsabschluss",
+                "isCorrect": false
+            },
+            {
+                "text": "Serialnummer",
+                "isCorrect": false
+            },
+            {
+                "text": "Planzeit",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Sie prüfen einen Instandhaltungsauftrag und möchten die Kosten anzeigen. Mit welchen Sichtweisen können Sie auf die Kosten anzeigen lassen?",
+        "choices": [
+            {
+                "text": "Kostenarten",
+                "isCorrect": true
+            },
+            {
+                "text": "Wertkategorie",
+                "isCorrect": true
+            },
+            {
+                "text": "Stückliste",
+                "isCorrect": false
+            },
+            {
+                "text": "Vorgänge",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Wenn ein materielles Equipment in der Bestandsführung eindeutig identifizierbar sein soll, welcher Eintrag ist im Materialstamm erforderlich?",
+        "choices": [
+            {
+                "text": "Serialnummernprofil",
+                "isCorrect": true
+            },
+            {
+                "text": "Bautyp",
+                "isCorrect": false
+            },
+            {
+                "text": "Inventarnummer",
+                "isCorrect": false
+            },
+            {
+                "text": "Technischer Platz",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Informationen im Sachkonto werden auf Kontenplanebene verwaltet?",
+        "choices": [
+            {
+                "text": "Kontengruppe",
+                "isCorrect": true
+            },
+            {
+                "text": "Sachkontonummer",
+                "isCorrect": true
+            },
+            {
+                "text": "Sachkontensaldo",
+                "isCorrect": false
+            },
+            {
+                "text": "Sachkontenmanagement",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Aufgaben werden in der Finanzbuchhaltung erledigt?",
+        "choices": [
+            {
+                "text": "Durchführen einer Inventurbewertung",
+                "isCorrect": true
+            },
+            {
+                "text": "Erstellung einer Bilanz",
+                "isCorrect": true
+            },
+            {
+                "text": "Kalkulation von Produktvarianten",
+                "isCorrect": false
+            },
+            {
+                "text": "Nachverfolgung von Fahrzeugkosten",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche Dokumente werden direkt im Universaljournal gespeichert?",
+        "choices": [
+            {
+                "text": "Beleg der Anlagenbuchhaltung",
+                "isCorrect": true
+            },
+            {
+                "text": "Beleg der Ergebnis- und Marktsegmentrechnung",
+                "isCorrect": true
+            },
+            {
+                "text": "Material Ledger Beleg",
+                "isCorrect": true
+            },
+            {
+                "text": "Materialbeleg",
+                "isCorrect": false
+            },
+            {
+                "text": "Vertriebsbeleg",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Wofür wird der Belegsplit benötigt?",
+        "choices": [
+            {
+                "text": "Um das Merkmal Segment allen Zeilen zuordnen zu können",
+                "isCorrect": true
+            },
+            {
+                "text": "Um Belege der Hauptbuchhaltung auf Kostenrechnungskreisebene aufzusummieren",
+                "isCorrect": false
+            },
+            {
+                "text": "Um Kostenrechnungszeilen zu summieren, damit weniger Zeilen entstehen",
+                "isCorrect": false
+            },
+            {
+                "text": "Um mehrere Ledger für die parallele Buchhaltung zu aktualisieren",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welches sind Organisationsstrukturen der SAP Finanzbuchhaltung?",
+        "choices": [
+            {
+                "text": "Buchungskreis",
+                "isCorrect": true
+            },
+            {
+                "text": "Segment",
+                "isCorrect": true
+            },
+            {
+                "text": "Abrechnungskreis",
+                "isCorrect": false
+            },
+            {
+                "text": "Kostenrechnungskreis",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Sie erfassen eine Rechnung für den KAuf eines neuen Firmenfahrzeuges. Welche Kontenarten ordnen Sie der Rechnung zu?",
+        "choices": [
+            {
+                "text": "Anlagenkonto",
+                "isCorrect": true
+            },
+            {
+                "text": "Kreditorenkonto",
+                "isCorrect": true
+            },
+            {
+                "text": "Bankkonto",
+                "isCorrect": false
+            },
+            {
+                "text": "Materialbestandskonto",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Welche der folgenden Materialbewegungen erzeugt einen Buchhaltungsbeleg in der Hauptbuchhaltung?",
+        "choices": [
+            {
+                "text": "Eine Umlagerung zwischen zwei Buchungskreisen",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Umlagerung Frei verwendbarer Bestand an gesperrt Bestand",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine Umlagerung Lagerort an Lagerort",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine Umlagerung Qualitätsprüfbestand an Frei verwendbarer Bestand",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Wo pflegen Sie Primär- und Sekundärkosten?",
+        "choices": [
+            {
+                "text": "In der Kostenartenrechnung",
+                "isCorrect": true
+            },
+            {
+                "text": "In der Hauptbuchhaltung",
+                "isCorrect": false
+            },
+            {
+                "text": "In der Kostenstellenrechnung",
+                "isCorrect": false
+            },
+            {
+                "text": "In der Profit Center Rechnung",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "Sie erfassen einen Buchhaltungsbeleg. Bei welcher Zelle müssen Sie eine Bewegungsart angeben?",
+        "choices": [
+            {
+                "text": "Anlagenkonto",
+                "isCorrect": true
+            },
+            {
+                "text": "Hauptbuchsachkonto",
+                "isCorrect": false
+            },
+            {
+                "text": "Kreditorenkonto",
+                "isCorrect": false
+            },
+            {
+                "text": "Materialkonto",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "text": "",
+        "choices": [
+            {
+                "text": "",
+                "isCorrect": true
+            },
+            {
+                "text": "",
+                "isCorrect": true
+            },
+            {
+                "text": "",
+                "isCorrect": false
+            },
+            {
+                "text": "",
+                "isCorrect": false
+            }
+        ]
+    }
+]

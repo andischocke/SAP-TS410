@@ -70,3 +70,29 @@ button:hover {
 button:active {
     background: black;
 }
+
+/* PROGRESS INFORMATIKON */
+header {
+    /* Set CSS display */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.4rem;
+    grid-template-areas:
+        "question points time check"
+        "question-progress points-progress time-progress check";
+
+    /* Set CSS box model */
+    width: 75%;
+}
+
+header > div {
+    /* Set CSS display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Set font */
+    font-size: 1.5rem;
+    font-weight: 700;
+}

@@ -1,0 +1,26 @@
+body {
+    /* Set CSS display */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Set background */
+    background-color: black;
+    background-image:
+        radial-gradient(circle, transparent 0.4rem, black 0),
+        linear-gradient(dimgray 0.2rem, transparent 0),
+        linear-gradient(90deg, dimgray 0.2rem, transparent 0);
+    background-size: 8rem 8rem;
+    background-position:
+        8.1rem 8.1rem,
+        4rem 4rem,
+        4rem 4rem;
+
+    /* Set font */
+    color: white;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}

@@ -18,8 +18,21 @@ let time = MAX_TIME;
 let allQuestions = [];
 let currentQuestion = {};
 
+// Load questions from JSON file
+requestJsonFile("questions");
 // Automatically update time every second
 setInterval(updateTime, 1000);
+
+function requestJsonFile(name) {
+    const jsonFile = name + ".json";
+    const httprequest = new XMLHttpRequest();
+
+    httprequest.open("GET", jsonFile, true);
+    httprequest.onload = function () {
+        allQuestions = JSON.parse(httprequest.responseText);
+    }
+    httprequest.send();
+}
 
 function updateTime() {
     let minutes = Math.floor(time / 60);

@@ -71,7 +71,7 @@ button:active {
     background: black;
 }
 
-/* PROGRESS INFORMATIKON */
+/* SESSION INFORMATIKON */
 header {
     /* Set CSS display */
     display: grid;
@@ -79,14 +79,14 @@ header {
     grid-template-rows: 1fr 1fr;
     gap: 0.4rem;
     grid-template-areas:
-        "question points time check"
-        "question-progress points-progress time-progress check";
+        "progress-title score-title time-title check"
+        "progress-value score-value time-value check";
 
     /* Set CSS box model */
     width: 75%;
 }
 
-header > div {
+header>div {
     /* Set CSS display */
     display: flex;
     justify-content: center;
@@ -95,4 +95,32 @@ header > div {
     /* Set font */
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+#progress-title {
+    grid-area: progress-title;
+}
+
+#progress-value {
+    grid-area: progress-value;
+}
+
+#score-title {
+    grid-area: score-title;
+}
+
+#score-value {
+    grid-area: score-value;
+}
+
+#time-title {
+    grid-area: time-title;
+}
+
+#time-value {
+    grid-area: time-value;
+}
+
+#check {
+    grid-area: check;
 }

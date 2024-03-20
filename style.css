@@ -24,3 +24,20 @@ body {
     font-weight: 400;
     text-align: left;
 }
+
+/* THEMES */
+.card {
+    /* Set CSS box model */
+    padding: 1rem;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.glass {
+    /* Set background */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(0.2rem);
+    backdrop-filter: blur(0.2rem);
+    box-shadow: 0rem 0rem 0.8rem 0.4rem gray;
+}

@@ -17,3 +17,20 @@ let time = MAX_TIME;
 
 let allQuestions = [];
 let currentQuestion = {};
+
+// Automatically update time every second
+setInterval(updateTime, 1000);
+
+function updateTime() {
+    let minutes = Math.floor(time / 60);
+    let seconds = time % 60;
+    // Add leading zero to seconds if less than 10
+    seconds = seconds < 10 ? '0' + seconds : seconds;
+    // Display time
+    timeValueHtml.innerHTML = minutes + ':' + seconds;
+
+    if (time > 0) {
+        // Subtract time
+        time--;
+    }
+}

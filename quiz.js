@@ -11,7 +11,7 @@ const MAX_QESTIONS = 80;
 const MAX_TIME = 180 * 60;
 
 // Session variables
-let question = 0;
+let progress = 0;
 let score = 0;
 let time = MAX_TIME;
 
@@ -43,8 +43,8 @@ async function main() {
 }
 
 async function nextQuestion() {
-    question++;
-    progressValueHtml.innerHTML = question + "/" + MAX_QESTIONS;
+    progress++;
+    progressValueHtml.innerHTML = progress + "/" + MAX_QESTIONS;
 
     // Get random question from allQuestions and remove it from the array
     const randomIndex = Math.floor(Math.random() * allQuestions.length);

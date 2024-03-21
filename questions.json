@@ -2194,26 +2194,5 @@
                 "isCorrect": false
             }
         ]
-    },
-    {
-        "text": "",
-        "choices": [
-            {
-                "text": "",
-                "isCorrect": true
-            },
-            {
-                "text": "",
-                "isCorrect": true
-            },
-            {
-                "text": "",
-                "isCorrect": false
-            },
-            {
-                "text": "",
-                "isCorrect": false
-            }
-        ]
     }
 ]

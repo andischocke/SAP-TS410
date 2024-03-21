@@ -18,13 +18,13 @@ let time = MAX_TIME;
 let allQuestions = [];
 let currentQuestion = {};
 
-// Load questions from JSON file
-requestJsonFile("questions");
 // Automatically update time every second
 setInterval(updateTime, 1000);
+// Load questions from JSON file
+requestJsonFile();
 
-function requestJsonFile(name) {
-    const jsonFile = name + ".json";
+function requestJsonFile() {
+    const jsonFile = "questions.json";
     const httprequest = new XMLHttpRequest();
 
     httprequest.open("GET", jsonFile, true);

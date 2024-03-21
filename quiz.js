@@ -23,6 +23,37 @@ setInterval(updateTime, 1000);
 // Start quiz
 main();
 
+function check() {
+    if (checkHtml.innerHTML === "Prüfen") {
+        // Get all choices
+        const choicesHtml = document.getElementsByClassName("choice");
+        
+        let allCorrect = true;
+        for (let i = 0; i < currentQuestion.choices.length; i++) {
+            // If the user selected a wrong choice set allCorrect to false
+            if (choicesHtml[i].getElementsByTagName("input")[0].checked != currentQuestion.choices[i].isCorrect) {
+                allCorrect = false;
+            }
+            // Color true choices green and false choices red
+            choicesHtml[i].classList.add(currentQuestion.choices[i].isCorrect ? "correct" : "incorrect");
+        }
+
+        // If the user only selected correct choices and no incorrect choices increase score
+        if (allCorrect) {
+            score++;
+            scoreValueHtml.innerHTML = score;
+        }
+
+        // Alter check button
+        checkHtml.innerHTML = "Nächste Frage";
+    } else {
+        // Get next question
+        nextQuestion();
+        // Reset check button
+        checkHtml.innerHTML = "Prüfen";
+    }
+}
+
 async function fetchJsonFile() {
     const jsonFile = "questions.json";
 

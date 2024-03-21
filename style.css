@@ -178,3 +178,11 @@ label {
     width: 100%;
     padding: 1rem 2rem;
 }
+
+.correct {
+    border-color: green;
+}
+
+.incorrect {
+    border-color: red;
+}

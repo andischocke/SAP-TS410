@@ -47,11 +47,23 @@ function check() {
         // Alter check button
         checkHtml.innerHTML = "Next";
     } else {
-        // Get next question
-        nextQuestion();
-        // Reset check button
-        checkHtml.innerHTML = "Check";
+        if (progress < MAX_QESTIONS) {
+            // Get next question
+            nextQuestion();
+            // Reset check button
+            checkHtml.innerHTML = "Check";
+        } else {
+            // End quiz
+            evaluation();
+        }
     }
+}
+
+function evaluation() {
+    // Save session variables to localStorage
+    localStorage.setItem("session", JSON.stringify({ maxQuestions: MAX_QESTIONS, maxTime: MAX_TIME, progress: progress, score: score, time: MAX_TIME - time }));
+    // Redirect to evaluation page
+    window.location.href = "evaluation.html";
 }
 
 async function fetchJsonFile() {
@@ -132,5 +144,8 @@ function updateTime() {
     if (time > 0) {
         // Subtract time
         time--;
+    } else {
+        // End quiz
+        evaluation();
     }
 }

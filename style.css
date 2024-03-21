@@ -124,3 +124,57 @@ header>div {
 #check {
     grid-area: check;
 }
+
+/* CHOICES */
+.choice {
+    /* Set CSS display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Set CSS box model */
+    border: 0.2rem solid white;
+    margin: 1rem;
+}
+
+.choice:hover {
+    transform: translateY(-0.1rem);
+    transition: transform 100ms;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    padding: 1rem 2rem;
+    background-color: gray;
+}
+
+input[type="checkbox"]::after {
+    content: "×";
+
+    /* Set font */
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+input[type="checkbox"]:hover {
+    background-color: dimgray;
+}
+
+input[type="checkbox"]:checked {
+    background-color: green;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "×";
+
+    /* Set font */
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+label {
+    width: 100%;
+    padding: 1rem 2rem;
+}

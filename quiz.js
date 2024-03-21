@@ -20,8 +20,8 @@ let currentQuestion = {};
 
 // Automatically update time every second
 setInterval(updateTime, 1000);
-// Load questions from JSON file
-fetchJsonFile();
+// Start quiz
+main();
 
 async function fetchJsonFile() {
     const jsonFile = "questions.json";
@@ -32,6 +32,61 @@ async function fetchJsonFile() {
         allQuestions = JSON.parse(data);
     } catch (error) {
         console.error("Error reading Json file:", error);
+    }
+}
+
+async function main() {
+    // Load questions from JSON file
+    await fetchJsonFile();
+    // Get next question
+    await nextQuestion();
+}
+
+async function nextQuestion() {
+    question++;
+    progressValueHtml.innerHTML = question + "/" + MAX_QESTIONS;
+
+    // Get random question from allQuestions and remove it from the array
+    const randomIndex = Math.floor(Math.random() * allQuestions.length);
+    currentQuestion = allQuestions[randomIndex];
+    allQuestions.splice(randomIndex, 1);
+
+    // Clear current question and choices
+    quizHTML.innerHTML = "";
+
+    // Enrich question text with the number of correct choices
+    const correctChoices = currentQuestion.choices.filter(choice => choice.isCorrect).length;
+    currentQuestion.text += " (" + correctChoices + ")";
+    // Create question element
+    const questionElement = document.createElement("h3");
+    questionElement.innerHTML = currentQuestion.text;
+    quizHTML.appendChild(questionElement);
+
+    // Shuffle choices
+    shuffleArray(currentQuestion.choices);
+    // Create choices elements
+    for (let i = 0; i < currentQuestion.choices.length; i++) {
+        const choiceElement = document.createElement("div");
+        choiceElement.className = "choice glass";
+
+        const inputElement = document.createElement("input");
+        inputElement.type = "checkbox";
+        inputElement.id = i;
+
+        const labelElement = document.createElement("label");
+        labelElement.htmlFor = i;
+        labelElement.innerHTML = currentQuestion.choices[i].text;
+
+        quizHTML.appendChild(choiceElement);
+        choiceElement.appendChild(inputElement);
+        choiceElement.appendChild(labelElement);
+    }
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
     }
 }
 

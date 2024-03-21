@@ -1,4 +1,4 @@
-# SAP
+# SAP-TS410
 This quiz is designed to evaluate your understanding of the SAP-TS410 certification through a series of multiple-choice questions.
 
 Developed using a combination of HTML, CSS, and JavaScript, its creation took inspiration from James Q Quick's [Single Choice Question App](https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript).

@@ -21,17 +21,18 @@ let currentQuestion = {};
 // Automatically update time every second
 setInterval(updateTime, 1000);
 // Load questions from JSON file
-requestJsonFile();
+fetchJsonFile();
 
-function requestJsonFile() {
+async function fetchJsonFile() {
     const jsonFile = "questions.json";
-    const httprequest = new XMLHttpRequest();
 
-    httprequest.open("GET", jsonFile, true);
-    httprequest.onload = function () {
-        allQuestions = JSON.parse(httprequest.responseText);
+    try {
+        const response = await fetch(jsonFile);
+        const data = await response.text();
+        allQuestions = JSON.parse(data);
+    } catch (error) {
+        console.error("Error reading Json file:", error);
     }
-    httprequest.send();
 }
 
 function updateTime() {

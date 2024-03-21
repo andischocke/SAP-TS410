@@ -24,10 +24,10 @@ setInterval(updateTime, 1000);
 main();
 
 function check() {
-    if (checkHtml.innerHTML === "Prüfen") {
+    if (checkHtml.innerHTML === "Check") {
         // Get all choices
         const choicesHtml = document.getElementsByClassName("choice");
-        
+
         let allCorrect = true;
         for (let i = 0; i < currentQuestion.choices.length; i++) {
             // If the user selected a wrong choice set allCorrect to false
@@ -45,12 +45,12 @@ function check() {
         }
 
         // Alter check button
-        checkHtml.innerHTML = "Nächste Frage";
+        checkHtml.innerHTML = "Next";
     } else {
         // Get next question
         nextQuestion();
         // Reset check button
-        checkHtml.innerHTML = "Prüfen";
+        checkHtml.innerHTML = "Check";
     }
 }
 
